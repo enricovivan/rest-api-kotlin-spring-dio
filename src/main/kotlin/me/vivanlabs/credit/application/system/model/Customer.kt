@@ -1,6 +1,7 @@
 package me.vivanlabs.credit.application.system.model
 
 import jakarta.persistence.*
+import org.hibernate.proxy.HibernateProxy
 
 @Entity
 //@Table(name = "Cliente")
