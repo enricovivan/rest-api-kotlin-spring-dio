@@ -26,7 +26,7 @@ class CreditService (
     override fun findByCreditCode(customerId: Long, creditCode: UUID): Credit {
 
         // basicamente está escrito que:
-        //  caso credito com o uuid passado não exista, lança execption que o crédito não existe
+        //  caso credito com o uuid passado não exista, lança exception que o crédito não existe
         val credit: Credit = (this.creditRepository.findByCreditCode(creditCode)
             ?: throw RuntimeException("Credit Code Not Found"))
 
