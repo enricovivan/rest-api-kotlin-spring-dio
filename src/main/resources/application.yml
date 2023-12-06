@@ -12,6 +12,6 @@ spring:
         web-allow-others: false
   jpa:
     show-sql: true
-    hibernate:
-      properties:
-        hibernate.format_sql: true
+    #hibernate:
+    properties:
+      hibernate.format_sql: true

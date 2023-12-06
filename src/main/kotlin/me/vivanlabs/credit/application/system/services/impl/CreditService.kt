@@ -3,7 +3,10 @@ package me.vivanlabs.credit.application.system.services.impl
 import me.vivanlabs.credit.application.system.model.Credit
 import me.vivanlabs.credit.application.system.repositories.CreditRepository
 import me.vivanlabs.credit.application.system.services.ICreditService
+import org.springframework.stereotype.Service
 import java.util.*
+
+@Service
 
 class CreditService (
     private val creditRepository: CreditRepository,
